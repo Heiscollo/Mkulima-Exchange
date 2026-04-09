@@ -1,0 +1,54 @@
+name: mkulima_exchange
+description: "A Flutter mobile marketplace application that connects farmers directly with consumers in Kenya."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.0
+  riverpod_annotation: ^2.3.0
+
+  # Routing
+  go_router: ^12.0.0
+
+  # Firebase (commented out for web compatibility - using mock data instead)
+  # firebase_core: ^2.24.0
+  # firebase_auth: ^4.15.0
+  # cloud_firestore: ^4.14.0
+  # firebase_storage: ^11.5.0
+
+  # UI and Utilities
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.3.0
+  intl: ^0.19.0
+  fluttertoast: ^8.2.2
+  image_picker: ^1.0.4
+
+  # Form Validation
+  form_validator: ^2.1.1
+
+  # Icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  riverpod_generator: ^2.3.6
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/illustrations/
+    - assets/icons/
