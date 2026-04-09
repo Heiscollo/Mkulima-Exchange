@@ -45,6 +45,7 @@ Mkulima Exchange is a Final Year Computer Science project designed to:
 - ✅ Smooth animations and transitions
 - ✅ Card-based layout with rounded corners
 - ✅ Responsive design for mobile
+- ✅ Vibrant gradients for stunning UX
 
 ### Architecture
 - ✅ Clean architecture with feature-based structure
@@ -118,23 +119,17 @@ lib/
 
 | Color | Use | Hex |
 |-------|-----|-----|
-| Deep Green | Primary color | #2E7D32 |
-| Light Green | Secondary color | #81C784 |
-| Amber Orange | Accent color | #F9A825 |
-| Light Gray | Background | #F5F5F5 |
-| Dark Gray | Text primary | #212121 |
+| Deep Green | Primary color | #1B5E20 |
+| Light Green | Secondary color | #4CAF50 |
+| Bright Orange | Accent color | #FF9800 |
+| Warm Cream | Background | #FAF7F2 |
+| Almost Black | Text primary | #1A1A1A |
 
 ## 📦 Dependencies
 
 ### State Management & Routing
 - `flutter_riverpod` - State management
 - `go_router` - Modern navigation
-
-### Firebase
-- `firebase_core` - Firebase core
-- `firebase_auth` - Authentication
-- `cloud_firestore` - Database
-- `firebase_storage` - File storage
 
 ### UI & Utilities
 - `google_fonts` - Poppins font
@@ -152,24 +147,32 @@ lib/
 ### Prerequisites
 - Flutter 3.0+
 - Dart 3.0+
-- Android SDK / iOS SDK
+- Chrome (for web development)
 
 ### Installation
 
-1. **Configure environment:**
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Heiscollo/Mkulima-Exchange.git
+   cd Mkulima-Exchange
+   ```
+
+2. **Install dependencies:**
    ```bash
    flutter pub get
    ```
 
-2. **Update pubspec.yaml fonts (if needed):**
-   Download Poppins font files and place in `assets/fonts/`
+3. **Run the app (web):**
+   ```bash
+   flutter run -d chrome
+   ```
 
-3. **Run the app:**
+4. **Run the app (Android/iOS):**
    ```bash
    flutter run
    ```
 
-4. **Build for production:**
+5. **Build for production:**
    ```bash
    # Android
    flutter build apk --release
@@ -177,6 +180,9 @@ lib/
    
    # iOS
    flutter build ios --release
+   
+   # Web
+   flutter build web --release
    ```
 
 ## 📱 Screens Overview
@@ -253,8 +259,8 @@ This project is part of a Final Year Computer Science project.
 
 ## 👥 Team
 
-- Project Lead: [Your Name]
-- Contributors: [Team Members]
+- Developer: Collins
+- Project: Mkulima Exchange Marketplace
 
 ## 📞 Support
 
@@ -263,3 +269,7 @@ For issues and questions, please contact the development team.
 ---
 
 **Built with ❤️ using Flutter**
+- **Git & GitHub** – Version control and collaboration
+
+## 📂 Project Structure
+>>>>>>> b703a0a32a26ca86259a40fe408a367a5fd2b7e9
